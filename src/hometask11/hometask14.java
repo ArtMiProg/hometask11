@@ -7,13 +7,15 @@ public class hometask14 {
     public static void main(String[] args) {
         System.out.println("Enter a value");
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        System.out.println("Enter b value");
-        int b = sc.nextInt();
-        if (a % b <= a / 10) {
-            System.out.println("b is close to a");
-        } else {
-            System.out.println("b is far from a");
+        if (sc.hasNextInt()) {
+            int a = sc.nextInt();
+            System.out.println("Enter b value");
+            int b = sc.nextInt();
+            if (a % b <= a / 10) {
+                System.out.println("b is close to a");
+            } else {
+                System.out.println("b is far from a");
+            }
         }
     }
 }
