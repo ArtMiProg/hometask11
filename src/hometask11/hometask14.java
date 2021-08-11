@@ -10,11 +10,13 @@ public class hometask14 {
         if (sc.hasNextInt()) {
             int a = sc.nextInt();
             System.out.println("Enter b value");
-            int b = sc.nextInt();
-            if (a % b <= a / 10) {
-                System.out.println("b is close to a");
-            } else {
-                System.out.println("b is far from a");
+            if (sc.hasNextInt()) {
+                int b = sc.nextInt();
+                if (a % b <= a / 10) {
+                    System.out.println("b is close to a");
+                } else {
+                    System.out.println("b is far from a");
+                }
             }
         }
     }

@@ -17,25 +17,25 @@ public class hometask13 {
         float c = sc.nextFloat();
         if (a > b) {
             if (b > c) {
-                System.out.println("Max num is " + a);
-                System.out.println("Min num is " + c);
+                System.out.println("Max num is a = " + a);
+                System.out.println("Min num is c = " + c);
             } else if (c > a) {
-                System.out.println("Max num is " + c);
-                System.out.println("Min num is " + b);
+                System.out.println("Max num is c = " + c);
+                System.out.println("Min num is b = " + b);
             } else {
-                System.out.println("Max num is " + a);
-                System.out.println("Min num is " + b);
+                System.out.println("Max num is a = " + a);
+                System.out.println("Min num is b = " + b);
             }
         } else if (b > a) {
             if (a > c) {
-                System.out.println("Max num is " + b);
-                System.out.println("Min num is " + c);
+                System.out.println("Max num is b = " + b);
+                System.out.println("Min num is c = " + c);
             } else if (c > b) {
-                System.out.println("Max num is " + c);
-                System.out.println("Min num is " + a);
+                System.out.println("Max num is c = " + c);
+                System.out.println("Min num is a = " + a);
             } else {
-                System.out.println("Max num is " + b);
-                System.out.println("Min num is " + a);
+                System.out.println("Max num is b = " + b);
+                System.out.println("Min num is a = " + a);
             }
         }
         float arithMean = 0;
